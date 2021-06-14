@@ -1,0 +1,143 @@
+
+
+.divider {
+    border-bottom: 2px solid #00e250;
+}
+
+main {
+	justify-content: center;
+}
+
+section {
+	justify-content: center;
+}
+
+.active {
+	color: orange;
+}
+
+
+
+.form {
+	padding: 2%;
+	display: block;
+	margin: auto;
+	justify-content: center;
+}
+
+div h1 {
+	border-bottom: 3px solid black;
+	padding-bottom: 2%;
+	text-align: center;
+	width: 100%;
+	color: #1956b9;
+
+}
+
+
+input, select, textarea {
+	display: flex;
+	width: 90%;
+	padding: 2%;
+	margin: 2%;
+	margin-left: 3%;
+}
+
+
+
+label {
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 1%;
+}
+
+.radio {
+	display: flex;
+	width: 92%; 
+	padding: 1%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	margin-left: 3%;
+	margin-right: 3%;
+	background-color: black;
+    color: white;
+    border: 1px solid orange;
+}
+
+div.radio label {
+	font-size: 0.8em;
+	margin: auto;
+	
+}
+
+div.radio input {
+	width: 5%;
+	margin-left: 10%;
+}
+
+div.check{
+	display: block;
+	width: 92%;
+	padding: 1%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+ 	background-color: black;
+  	color: white;
+  	border: 1px solid orange;
+  	margin-left: 3%;
+  	margin-right: 3%;
+}
+
+div.check input {
+	display: block;
+	float: left;
+	width: 20px;
+	margin-top: 1.5%;
+}
+
+div.check label {
+	font-size: 0.8em;
+}
+
+div.btn {
+	display flex;
+
+}
+
+input[type=text], input[type=date], input[type=email] {
+  background-color: black;
+  color: white;
+  border: 1px solid orange;
+}
+
+.check a {
+  text-decoration: none;
+  color: #1956b9;
+}
+
+.check a:hover { 
+   color: #6583b4;
+}
+
+
+#submitBtn {
+	background-color:#1956b9 ;
+	font-size: 15px;
+	border:0;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	width: 45%;
+}
+
+#submitBtn:hover {
+	cursor: pointer;
+	background-color: #6583b4;
+}
+
+
+@media screen and (max-width: 576px) {
+	div.check input {
+    margin-top: 20px;
+}

@@ -1,0 +1,143 @@
+main {
+	font-size: 1.1em;
+}
+section {
+	padding: 0;
+	flex: 100%;
+	margin-bottom: 20px;
+}
+
+.divider {
+    border-bottom: 2px solid #00b8ff;
+}
+
+div.news {
+	background-color: rgb(0,0,0);
+	width: 28%;
+	margin: 2%;
+	flex-wrap: wrap;
+	display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text a {
+  text-decoration: none;
+  color: #2fa200;
+}
+
+ .text a:hover { 
+   color: #00e250;
+}
+
+.active {
+	color: #00e250;
+}
+
+
+
+div.container {
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  
+}
+
+div.video-container {
+  position: relative; 
+  padding-bottom: 56.25%; 
+  padding-top: 30px; 
+  height: 0; 
+  overflow: hidden; 
+}
+
+.video-container iframe {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+
+
+h3 {
+	font-size: 1.3em;
+}
+.titleN{
+	width: 80%;
+}
+.titleN h2 {
+	width: 100%;
+	font-size: 2em;
+	color: #b72828;
+	margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+section h2 {
+	color: orange;
+	margin: 0;
+	width: 80%;
+}
+
+div.headline {
+ width: 90%;
+}
+
+div.images {
+ width: 100%;
+
+}
+
+div.text {
+	width: 90%;
+	text-align: left;
+}
+
+div img {
+	width: 100%;
+}
+
+
+
+@media screen and (max-width: 992px){
+	 
+	div.news {
+		width: 45%;
+	}
+
+	div.images {
+    	width: 80%;
+	}
+
+}
+
+
+@media screen and (max-width: 768px) {
+	div.news {
+		width: 80%;
+   		margin-bottom: 40px;
+
+	}
+
+	div.images {
+	    width: 80%;
+	}
+
+
+	div.container {
+		width: 80%;
+	}
+
+}
+
+
+@media screen and (max-width: 450px) {
+	div.images {
+    width: 100%;
+    margin-left: 0px;
+}
+}

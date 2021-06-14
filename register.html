@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Space</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="register.css">
+	<link rel="shortcut icon" type="image/x-icon" href="1605821223.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<header>
+		<h1>learn &nbsp;about &nbsp;space</h1>
+		<nav>
+	
+			<ul id="myNav">
+	  			<li><a href="index.html" >Home</a></li>
+	  			<li><a href="news.html" >News</a></li>
+	  			<li><a href="register.html" class="active">Register</a></li>
+			</ul>
+		
+			<div id="cont" class="cont" onclick="myFunction(this); dropDown()">
+			  <div class="bar1"></div>
+			  <div class="bar2"></div>
+			  <div class="bar3"></div>
+			</div>
+			
+
+		</nav>
+	</header>
+
+		<ul id="myNavTwo">
+			<div id="lis">
+	  			<li><a href="index.html">Home</a></li>
+	  			<li><a href="news.html">News</a></li>
+	  			<li><a href="register.html">Register</a></li>
+	  		</div>
+		</ul>
+
+
+	<main>
+
+		<span class="divider"></span>
+
+		<section>
+			<div class="form">
+
+				<h1>Register &nbsp; for &nbsp; more  news</h1><br>
+
+				<form>
+					<label for="name">First name</label>
+					<input type="text" name="name" placeholder="First Name" required="true">
+					<label for="lastname">Last name</label>
+					<input type="text" name="lastname" placeholder="Last Name" required="true">
+					<label for="e-mail">E-mail</label>
+					<input type="email" name="e-mail" placeholder="E-mail" required="true">
+					<label for="birthDate">Birthday</label>
+					<input type="date" name="birthDate" required="true">
+					<label for="gender">Gender</label>
+					<div class="radio">
+					  <input type="radio" id="male" name="gender" value="male">
+					  <label for="male">Male</label>
+					  <input type="radio" id="female" name="gender" value="female">
+					  <label for="female">Female</label>
+					</div>
+					<label for="terms">Terms and Privacy Policy</label>
+					<div class="check">
+					 <input type="checkbox" id="terms" name="terms" value="Terms">
+					 <label for="terms">By creating an account you agree to ours <a href="">Terms and Privacy Policy</a></label>
+					</div>
+					<div class="btn">
+					<input id="submitBtn" type="submit" name="submit" value="Sign Up ">
+					</div>
+				</form>
+		</div>
+	</section>
+
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+		<script src="myScript.js"></script>
+
+		<span class="divider"></span>
+
+	</main>
+
+	<footer>
+
+		<p>&copy; All rights reserved! </p> 
+		<div>
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-google"></a>
+		</div>
+		
+	</footer>
+
+
+</body>
+</html>
